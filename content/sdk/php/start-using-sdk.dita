@@ -56,7 +56,7 @@ Additional .ini files parsed:      (none)</codeblock></li>
                         in the <codeph>[PHP]</codeph> section. If you don't know where that is,
                         simply search for existing commented or uncommented
                             <codeph>extension=</codeph> entries in the
-                        file.<codeblock spectitle="Linux and Mac OS">extension=couchbase.so</codeblock><codeblock spectitle="Windows">extension=couchbase.dll</codeblock>
+                        file.<codeblock spectitle="Linux and Mac OS">extension=couchbase.so</codeblock><codeblock spectitle="Windows">extension=couchbase.dll (php_couchbase.dll in windows)</codeblock>
                         The Couchbase SDK (as of 2.2.4) depends on
                         both the JSON and <xref
                         href="https://pecl.php.net/package/pcs"
